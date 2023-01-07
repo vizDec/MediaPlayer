@@ -1,0 +1,11 @@
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --back: #F29422;
+    --transparent: #F2CA99;
+    --first-color: #F2811D;
+    --second-color: #D94B2B;
+    --button-color: #BF3030;
+}
