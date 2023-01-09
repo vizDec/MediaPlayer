@@ -1,0 +1,55 @@
+.container__search {
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container__search img {
+    width: 2rem;
+    height: 2rem;
+}
+
+main {
+    margin: 1rem;
+}
+
+#myVideo {
+    width: 100%;
+}
+
+.playerContainer {
+    margin-bottom: 1rem;
+
+    line-height: 1.2rem;
+}
+
+.playerContainer__info--author {
+    margin: .5rem 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.playerContainer__info--descriiption {
+    margin-left: 1rem;
+
+    line-height: 1.4rem;
+}
+
+.listVideos__content {
+    margin-bottom: .5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.listVideos__content--info {
+    margin-left: 2rem;
+
+    line-height: 2rem;
+}
+
+.contentScrollVideo__img {
+    width: 40%;
+}

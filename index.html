@@ -10,27 +10,28 @@
 
     <link rel="stylesheet" href="./src/css/normalize.css">
     <link rel="stylesheet" href="./src/css/root.css">
+    <link rel="stylesheet" href="./src/css/main.css">
 
     <title>GoPlayer</title>
 </head>
 <body>
     <head>
-        <div class="container-search">
-            <a href=""></a>
-            <input id="search" type="text">
+        <div class="container__search">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/768px-Search_Icon.svg.png" alt="">
+            <input id="search" type="text" placeholder=" Search">
         </div>
     </head>
     
     <main>
-        <section id="container-mediaPlayer">
-            <video id="myVideo" width="640" height="320" controls></video>
+        <section class="playerContainer" id="container-mediaPlayer">
+            <video class="playerContainer__video" id="myVideo" controls></video>
 
-            <article id="description-video">
+            <article class="playerContainer__info" id="description-video">
 
             </article>
         </section>
 
-        <section id="scrollVideo">
+        <section class="listVideos" id="scrollVideo">
 
         </section>
     </main>
