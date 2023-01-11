@@ -3,9 +3,16 @@ html {
 }
 
 :root {
-    --back: #F29422;
-    --transparent: #F2CA99;
-    --first-color: #F2811D;
-    --second-color: #D94B2B;
-    --button-color: #BF3030;
+    --transparent: #052535;
+    --transparent-second: #103040;
+    --back: #012030;
+    --text-color: whitesmoke;
+}
+
+.inactive {
+    display: none;
+}
+
+body {
+    background-color: var(--back);
 }

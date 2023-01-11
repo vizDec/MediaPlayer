@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./src/css/normalize.css">
     <link rel="stylesheet" href="./src/css/root.css">
     <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/tablet.css" media="screen and (min-width: 550px)">
+    <link rel="stylesheet" href="./src/css/desktop.css" media="screen and (min-width: 1024px)">
 
     <title>GoPlayer</title>
 </head>
@@ -22,7 +24,7 @@
         </div>
     </head>
     
-    <main>
+    <main class="mainContainer" id="main">
         <section class="playerContainer" id="container-mediaPlayer">
             <video class="playerContainer__video" id="myVideo" controls></video>
 
@@ -31,7 +33,7 @@
             </article>
         </section>
 
-        <section class="listVideos" id="scrollVideo">
+        <section class="listVideos listVideosTablet" id="scrollVideo">
 
         </section>
     </main>

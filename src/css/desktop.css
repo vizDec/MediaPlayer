@@ -1,0 +1,10 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.listVideos {
+    display: block;
+    margin-left: 2rem;
+    height: calc(100vh - 8rem);
+}
